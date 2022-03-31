@@ -1,0 +1,57 @@
+ body{
+    height:100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.main_container>.header>h1{
+    text-align: center;
+    margin:25px;
+}
+.container_btns{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.student_dt_btn,.teacher_dt_btn{
+    font-size: 20px;
+    padding:10px;
+    border:none;
+    color:white;
+    background-color:inherit;
+    font-weight:600;
+}
+.student_dt_btn:hover,.teacher_dt_btn:hover{
+    border-radius: 5px;
+    border-bottom: 3px solid;
+}
+.student_container>.header>h2,.teacher_container>.header>h2{
+    text-align: center;
+    margin:25px;
+}
+.student_container>.body_area,.teacher_container>.body_area{
+    display:flex;
+    justify-content:space-evenly;
+}
+.register_btn{
+    font-size:16px;
+    padding:7px;
+    border:none;
+    color:white;
+    background-color: inherit;
+}
+.register_btn:hover{
+    border-right:2px solid grey;
+    border-left:2px solid grey;
+}
+.back_btn{
+    background-color:inherit;
+    border:none;
+    color:white;
+    margin-left:20px;
+}
+.back_btn:hover{
+    border-right:2px solid white;
+    border-left:2px solid white;
+}
